@@ -6,7 +6,7 @@
   "homepage": "https://thereeva.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akveo/reeva.git"
+    "url": "https://github.com/roajer/reeva.git"
   },
   "bugs": {
     "url": "https://reeva.freshdesk.com/support/home"
@@ -25,7 +25,7 @@
     "build:prod": "npm run build -- --prod",
     "build:prod:aot": "npm run build:prod -- --aot",
     "build:ci": "npm run build:prod && npm run build:prod:aot",
-    "build:demo": "npm run build:prod:aot -- --base-href \"http://akveo.com/ng2-admin/\"",
+    "build:demo": "npm run build:prod:aot -- --base-href \"https://thereeva.com/\"",
     "test": "ng test -sr",
     "test:coverage": "npm run clean:coverage && ng test -sr -cc",
     "lint": "ng lint",
